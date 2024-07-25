@@ -1,0 +1,181 @@
+/* General */
+body{
+    background-color: beige;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    position: relative;
+    background-attachment: scroll;
+    min-height: 100vh;
+    padding-bottom: 5%;
+}
+
+footer{
+    background: bisque;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 2%;
+}
+
+/* Clases */
+.margenMediano{
+    margin-left: 3%;
+}
+
+.tabla{
+    display: flex;
+    overflow: auto;
+}
+
+.espaciadoFormulario{
+    margin-bottom: 0.5%;
+}
+
+.imagen_boton{
+    height: 10%;
+    width: 10%;
+}
+
+.barraHerramientas{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(to bottom,chocolate 0%, green 30%, rgb(87, 11, 11) 60%, chocolate 90%);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-right: 3%;
+}
+
+.botonResaltado{
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(to bottom,chocolate 0%, green 30%, rgb(87, 11, 11) 60%, chocolate 90%);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 50px;
+    height: 30px;
+    margin-right: 3%;
+}
+
+.bienvenidoLetra{
+    color:chocolate;
+    text-align: center;
+    flex-grow: 0.85;
+}
+
+.barraArriba{
+    background: bisque;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barraIzquierda{
+    position: relative;
+    float: left;
+    display: flex;
+    width: 200px;
+    height: 500px;
+    border: 2px solid green;
+}
+
+.centro{
+    display: flex;
+    float: left;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    height: 400px;
+}
+
+.lateral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40%;
+    height: 400px;
+}
+
+.abajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    width: 90%;
+    height: 100px;
+}
+
+.redesSociales{
+    height: 30px;
+    width: 30px;
+}
+
+.imagenPrincipal{
+    width: 150px;
+    height: 100px;
+}
+
+.divPrincipal{
+    display: flex;
+    align-items: center;
+}
+
+.centrado{
+    text-align: center;
+    align-items: center;
+}
+
+/* ID */
+#internoAbajo{
+    display: flex;
+    justify-content: space-around;
+}
+
+#avisoLegal{
+    text-align: center;
+}
+
+#hamburguesaCarne{
+    height: 300px;
+    width: 300px;
+}
+
+#hamburguesaPollo{
+    height: 300px;
+    width: 400px;
+}
+
+#hamburguesaVegana{
+    height: 300px;
+    width: 525px;
+}
+
+#imagenLogo{
+    position: relative;
+    float: left;
+    width: 3%;
+    height: 3%;
+}
+
+#divFormulario{
+    margin-left: 25%;
+}
+
+#mapaGoogle{
+    width: 800px;
+    height: 500px;
+}

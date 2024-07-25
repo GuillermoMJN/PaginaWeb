@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <!-- CONFIGURACION -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devode-width, initial-scale=1.0">
+        <title>Inicio</title>
+
+    <!-- FAVICON -->
+        <link rel="icon" href="../images/favicon.png">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- FONDO GLOBAL -->
+    </head>
+    <body>
+        <header>
+            <div class="divPrincipal">
+                <img src="../images/favicon.png" alt="Logotipo de la empresa" class="imagenPrincipal" width="291" height="230">
+                <h1 class="bienvenidoLetra">Inicio</h1>
+            </div>
+            
+            <!-- Barra navegacion -->
+            <nav class="barraArriba">
+
+                <a href="../index.html" class="barraHerramientas">Inicio</a> <!-- Va a la misma página -->
+                <a href="./productos.html" class="barraHerramientas">Productos</a>
+                <!-- Va a otra página -->
+                <a href="#" class="botonResaltado">Precios</a> <!-- Va a otra página -->
+                <a href="./contacto.html" class="barraHerramientas">Contacto</a> <!-- Va a otra página -->
+            </nav>
+        </header>
+
+        <main>
+            <!-- Titulo 1 -->
+            <h1>
+                Si quieres dejarnos un encargo de mas de 10 hamburguesas o reserva de mesa, por favor, rellena el formulario y nos pondremos en contacto contigo:
+            </h1>
+            <!-- Formulario -->
+            <div id="divFormulario">
+                <form name="formulario_precios" action="#">
+                    <!-- Espacio tipo texto requerido -->
+                    <p class="espaciadoFormulario">Introduce tu nombre:</p>
+                    <input type="text" pattern="[A-Za-zÀ-ÖØ-öø-ÿ '-]{1,}" required>
+                    <!-- Espacio tipo correo requerido -->
+                    <p class="espaciadoFormulario">Introduce tu correo electronico:</p>
+                    <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required>
+                    <!-- Espacio tipo numero requerido -->
+                    <p class="espaciadoFormulario">Introduce tu numero contacto:</p>
+                    <input type="number" pattern="^[0-9]{1,9}$" required>
+                    <!-- Espacio tipo text area requerido, no pongo pattern ya que la descripcion puede ser lo que quiera el usuario-->
+                    <p class="espaciadoFormulario">Descripción:</p>
+                    <textarea name="Descripcion" rows="6" cols="60" required></textarea>
+                    <!-- Checkbox aceptando terminos y politica requerido-->
+                    <p>
+                        Aceptas términos y condiciones y la política de privacidad<input type="checkbox" required>
+                    </p>
+                    <!-- boton para enviar los resultados -->
+                    <input type="submit" name="boton enviar">
+                </form>
+            </div>
+        </main>
+            
+        <!-- Barra de redes sociales y aviso legal -->
+        <footer>
+            <div>
+                <nav class="barraAbajo">
+                    <!-- Redes sociales -->
+                    <div id="internoAbajo">
+                        <!-- Logo Facebook -->
+                        <a href="https://es-es.facebook.com/">
+                            <img src="../images/facebook.png" alt="Imagne del logotipo de facebook" class="redesSociales" width="4169" height="4169">
+                        </a>
+                        <!-- Logo Instagram -->
+                        <a href="https://www.instagram.com/">
+                            <img src="../images/instagram.png" alt="Imagne del logotipo de facebook" class="redesSociales" width="600" height="600">
+                        </a>
+                        <!-- Logo twitter -->
+                        <a href="https://x.com/">
+                            <img src="../images/twitter.png" alt="Imagne del logotipo de facebook" class="redesSociales" width="245" height="300">
+                        </a>        
+                    </div>
+                    <!-- Aviso legal -->
+                    <div id="avisoLegal">
+                        <p>Aviso Legal: Este sitio web es propiedad de Vintage Burger, con domicilio en Avenida de la comida 56, y con NIF B1243564. </p>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
